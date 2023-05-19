@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'comps-in';
+  username = '';  // Add this line
+
+  handleButtonClick() {
+    console.log('Button clicked!');
+  }
 }
